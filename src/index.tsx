@@ -6,7 +6,9 @@ import { DeviceScreen, DevicesScreen, HomeScreen, LogScreen } from "./screens";
 
 if (import.meta.env.DEV || true) {
   import("./mocks/browser").then(({ worker }) => {
-    worker.start();
+    worker.start({
+      serviceWorker: { url: import.meta.env.BASE_URL + "mockServiceWorker.js" },
+    });
     renderApp();
   });
 } else {
