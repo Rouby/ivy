@@ -4,7 +4,7 @@ import { App } from "./App";
 import "./reset.css";
 import { DeviceScreen, DevicesScreen, HomeScreen, LogScreen } from "./screens";
 
-if (import.meta.env.DEV) {
+if (import.meta.env.DEV || true) {
   import("./mocks/browser").then(({ worker }) => {
     worker.start();
     renderApp();
