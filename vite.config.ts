@@ -8,4 +8,5 @@ export default defineConfig((cfg) => ({
       jsxImportSource: "theme-ui",
     }),
   ],
+  base: process.env.BASE,
 }));

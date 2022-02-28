@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:11.8.1"],
             ["@mdx-js/react", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.0.0"],
             ["@popperjs/core", "npm:2.11.2"],
+            ["@types/node", "npm:17.0.21"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@vitejs/plugin-react", "npm:1.2.0"],
@@ -1371,6 +1372,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-17.0.18-a816928b08-6c4edfc2b3.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:17.0.18"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:17.0.21", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.21-7d68eb6a13-89dcd2fe82.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:17.0.21"]
           ],
           "linkType": "HARD",
         }]
@@ -4068,6 +4076,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/styled", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:11.8.1"],
             ["@mdx-js/react", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.0.0"],
             ["@popperjs/core", "npm:2.11.2"],
+            ["@types/node", "npm:17.0.21"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@vitejs/plugin-react", "npm:1.2.0"],
