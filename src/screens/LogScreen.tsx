@@ -5,7 +5,9 @@ export function LogScreen() {
   const { data, isLoading, fetchNextPage, hasNextPage } = useInfiniteQuery(
     "logs",
     async ({ pageParam = 0 }) => {
-      const response = await fetch(`/api/logs?page=${pageParam}`);
+      const response = await fetch(
+        `${import.meta.env.BASE_URL}api/logs?page=${pageParam}`
+      );
       const data: {
         nodes: {
           date: string;

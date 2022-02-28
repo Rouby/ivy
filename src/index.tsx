@@ -15,7 +15,7 @@ if (import.meta.env.DEV) {
 
 function renderApp() {
   render(
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<HomeScreen />} />

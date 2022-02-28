@@ -9,7 +9,9 @@ import { Alert, BackButton } from "../components";
 export function DeviceScreen() {
   const { deviceId } = useParams();
   const { data } = useQuery(["device", deviceId], async ({ queryKey }) => {
-    const response = await fetch(`/api/devices/${queryKey[1]}`);
+    const response = await fetch(
+      `${import.meta.env.BASE_URL}api/devices/${queryKey[1]}`
+    );
     const data: {
       id: string;
       name: string;
