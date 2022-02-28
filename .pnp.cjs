@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/react", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:11.8.1"],
             ["@emotion/styled", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:11.8.1"],
             ["@mdx-js/react", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.0.0"],
+            ["@popperjs/core", "npm:2.11.2"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@vitejs/plugin-react", "npm:1.2.0"],
@@ -48,6 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:17.0.2"],
             ["react-icons", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:4.3.1"],
+            ["react-popper", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.2.5"],
             ["react-query", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:3.34.16"],
             ["react-router-dom", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:6.2.1"],
             ["theme-ui", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:0.13.1"],
@@ -946,6 +948,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@open-draft-until-npm-1.0.3-c0d6a46a29-323e92ebef.zip/node_modules/@open-draft/until/",
           "packageDependencies": [
             ["@open-draft/until", "npm:1.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@popperjs/core", [
+        ["npm:2.11.2", {
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.2-5358ac2a25-5695bf020e.zip/node_modules/@popperjs/core/",
+          "packageDependencies": [
+            ["@popperjs/core", "npm:2.11.2"]
           ],
           "linkType": "HARD",
         }]
@@ -4056,6 +4067,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/react", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:11.8.1"],
             ["@emotion/styled", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:11.8.1"],
             ["@mdx-js/react", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.0.0"],
+            ["@popperjs/core", "npm:2.11.2"],
             ["@types/react", "npm:17.0.39"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@vitejs/plugin-react", "npm:1.2.0"],
@@ -4064,6 +4076,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:17.0.2"],
             ["react-icons", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:4.3.1"],
+            ["react-popper", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.2.5"],
             ["react-query", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:3.34.16"],
             ["react-router-dom", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:6.2.1"],
             ["theme-ui", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:0.13.1"],
@@ -5190,6 +5203,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["react-fast-compare", [
+        ["npm:3.2.0", {
+          "packageLocation": "./.yarn/cache/react-fast-compare-npm-3.2.0-fbfa6627d9-8ef272c825.zip/node_modules/react-fast-compare/",
+          "packageDependencies": [
+            ["react-fast-compare", "npm:3.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["react-icons", [
         ["npm:4.3.1", {
           "packageLocation": "./.yarn/cache/react-icons-npm-4.3.1-46cb955834-2cc608acdd.zip/node_modules/react-icons/",
@@ -5217,6 +5239,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",
           "packageDependencies": [
             ["react-is", "npm:16.13.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-popper", [
+        ["npm:2.2.5", {
+          "packageLocation": "./.yarn/cache/react-popper-npm-2.2.5-6e86e4bf1e-915fcf08e1.zip/node_modules/react-popper/",
+          "packageDependencies": [
+            ["react-popper", "npm:2.2.5"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.2.5", {
+          "packageLocation": "./.yarn/__virtual__/react-popper-virtual-7b850963af/0/cache/react-popper-npm-2.2.5-6e86e4bf1e-915fcf08e1.zip/node_modules/react-popper/",
+          "packageDependencies": [
+            ["react-popper", "virtual:fd0c2ebe9efef983853400042e14856d54dfc106bf4b46869bf0e85df8323291b8177a80c1955750381be1bde38341328c977e669175f3517a9321d7e88d5a47#npm:2.2.5"],
+            ["@popperjs/core", "npm:2.11.2"],
+            ["@types/popperjs__core", null],
+            ["@types/react", "npm:17.0.39"],
+            ["react", "npm:17.0.2"],
+            ["react-fast-compare", "npm:3.2.0"],
+            ["warning", "npm:4.0.3"]
+          ],
+          "packagePeers": [
+            "@popperjs/core",
+            "@types/popperjs__core",
+            "@types/react",
+            "react"
           ],
           "linkType": "HARD",
         }]
@@ -6306,6 +6356,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "less",
             "sass",
             "stylus"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["warning", [
+        ["npm:4.0.3", {
+          "packageLocation": "./.yarn/cache/warning-npm-4.0.3-291e921d6d-4f2cb6a957.zip/node_modules/warning/",
+          "packageDependencies": [
+            ["warning", "npm:4.0.3"],
+            ["loose-envify", "npm:1.4.0"]
           ],
           "linkType": "HARD",
         }]

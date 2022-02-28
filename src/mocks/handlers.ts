@@ -133,7 +133,15 @@ export const handlers = [
             },
           },
         ],
-        history: [],
+        history: [
+          { timestamp: "2020-01-01T00:00:00.000Z", value: 20 },
+          { timestamp: "2020-01-02T00:00:00.000Z", value: 22 },
+          { timestamp: "2020-01-03T00:00:00.000Z", value: 27 },
+          { timestamp: "2020-01-04T00:00:00.000Z", value: 20 },
+          { timestamp: "2020-01-05T00:00:00.000Z", value: -3 },
+          { timestamp: "2020-01-06T00:00:00.000Z", value: 8 },
+          { timestamp: "2020-01-07T00:00:00.000Z", value: 15 },
+        ],
       })
     );
   }),

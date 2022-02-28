@@ -675,6 +675,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.11.2":
+  version: 2.11.2
+  resolution: "@popperjs/core@npm:2.11.2"
+  checksum: 5695bf020eda54636e16a62dc9b5fdd92beaf7b2d19f62fcef049d57c5cff92773562d80cbf760b217c3ec928da310eb24994ab6a00fd39dffa0af9b5dfc01a6
+  languageName: node
+  linkType: hard
+
 "@rollup/pluginutils@npm:^4.1.2":
   version: 4.1.2
   resolution: "@rollup/pluginutils@npm:4.1.2"
@@ -3309,6 +3316,7 @@ __metadata:
     "@emotion/react": ^11.8.1
     "@emotion/styled": ^11.8.1
     "@mdx-js/react": ^2.0.0
+    "@popperjs/core": ^2.11.2
     "@types/react": ^17.0.39
     "@types/react-dom": ^17.0.11
     "@vitejs/plugin-react": ^1.2.0
@@ -3317,6 +3325,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     react-icons: ^4.3.1
+    react-popper: ^2.2.5
     react-query: ^3.34.16
     react-router-dom: ^6.2.1
     theme-ui: ^0.13.1
@@ -3534,7 +3543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.1.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
   dependencies:
@@ -4276,6 +4285,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-fast-compare@npm:^3.0.1":
+  version: 3.2.0
+  resolution: "react-fast-compare@npm:3.2.0"
+  checksum: 8ef272c825ae329f61633ce4ce7f15aa5b84e5214d88bc0823880236e03e985a13195befa2c7a4eda7db3b017dc7985729152d88445823f652403cf36c2b86aa
+  languageName: node
+  linkType: hard
+
 "react-icons@npm:^4.3.1":
   version: 4.3.1
   resolution: "react-icons@npm:4.3.1"
@@ -4289,6 +4305,19 @@ __metadata:
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
+  languageName: node
+  linkType: hard
+
+"react-popper@npm:^2.2.5":
+  version: 2.2.5
+  resolution: "react-popper@npm:2.2.5"
+  dependencies:
+    react-fast-compare: ^3.0.1
+    warning: ^4.0.2
+  peerDependencies:
+    "@popperjs/core": ^2.0.0
+    react: ^16.8.0 || ^17
+  checksum: 915fcf08e1da4fd48a200074fcdd936f601ee2173f1e730cfed8a54fd47716aa8bf9cce2392463e3bcbe64a096d0baf463809ed2874b94d3a9d430ae6d817b5d
   languageName: node
   linkType: hard
 
@@ -5251,6 +5280,15 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 0531ea17d354c35026c87e732d28c777492cc5165c4abdaa507c4894535ecbbfcf447fa3f270bbb160cd7cba8ad319cc86a221be18b2ccd40d8be139f9d7381d
+  languageName: node
+  linkType: hard
+
+"warning@npm:^4.0.2":
+  version: 4.0.3
+  resolution: "warning@npm:4.0.3"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: 4f2cb6a9575e4faf71ddad9ad1ae7a00d0a75d24521c193fa464f30e6b04027bd97aa5d9546b0e13d3a150ab402eda216d59c1d0f2d6ca60124d96cd40dfa35c
   languageName: node
   linkType: hard
 

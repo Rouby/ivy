@@ -1,6 +1,7 @@
 import { render } from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { App } from "./App";
+import "./reset.css";
 import { DeviceScreen, DevicesScreen, HomeScreen, LogScreen } from "./screens";
 
 if (import.meta.env.DEV) {
