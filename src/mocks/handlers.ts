@@ -1,7 +1,7 @@
 import { rest } from "msw";
 
 export const handlers = [
-  rest.get("/api/logs", (req, res, ctx) => {
+  rest.get(import.meta.env.BASE_URL + "api/logs", (req, res, ctx) => {
     const page = +(req.url.searchParams.get("page") ?? 0);
 
     const pages = [
@@ -111,7 +111,7 @@ export const handlers = [
     );
   }),
 
-  rest.get("/api/devices/:id", (req, res, ctx) => {
+  rest.get(import.meta.env.BASE_URL + "api/devices/:id", (req, res, ctx) => {
     const id = req.params.id;
 
     return res(
@@ -133,15 +133,7 @@ export const handlers = [
             },
           },
         ],
-        history: [
-          { timestamp: "2020-01-01T00:00:00.000Z", value: 20 },
-          { timestamp: "2020-01-02T00:00:00.000Z", value: 22 },
-          { timestamp: "2020-01-03T00:00:00.000Z", value: 27 },
-          { timestamp: "2020-01-04T00:00:00.000Z", value: 20 },
-          { timestamp: "2020-01-05T00:00:00.000Z", value: -3 },
-          { timestamp: "2020-01-06T00:00:00.000Z", value: 8 },
-          { timestamp: "2020-01-07T00:00:00.000Z", value: 15 },
-        ],
+        history: [],
       })
     );
   }),
